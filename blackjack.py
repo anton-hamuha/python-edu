@@ -13,3 +13,10 @@ dealer_hand = []
 import random
 card = random.choice(cards)
 player_hand.append(card)
+def card_value(card):
+ if card == 'A':
+ return 11
+ elif card == 'K' or card == 'Q' or card == 'J':
+ return 10
+ else:
+ return int(card)
