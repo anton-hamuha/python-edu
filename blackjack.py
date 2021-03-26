@@ -20,3 +20,8 @@ def card_value(card):
  return 10
  else:
  return int(card)
+def hand_total(hand):
+ total = 0
+ for card in hand:
+ total += card_value(card)
+ return tota
