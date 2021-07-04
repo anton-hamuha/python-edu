@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
     <style>
       table {background-color: #6600FF;}
       th {color: red;}
       td {color: white}
       th{background-color: #66CCFF;}
       h2{background-color: #23f900;}
+
       body  {
-  background-image: url("paper.gif");
-  background-color: #cccccc;
-}
-  </style>
+      background-image: url("paper.gif");
+      background-color: #cccccc;
+      }
 
-  <style>
+      .fade-in {
+        animation: fadeIn 7s;
+       }
 
+       @keyframes  fadeIn{
+         from {
+           opacity: 0;
+       }
+
+       to {
+          opacity: 1;
+         }
+       }
   </style>
 </head>
 <body>
 
-
-<h2>My friends </h2>
+<h1 class= 'fade-in'>My friends</h1>
 
 <table style="width:100%" border="1">
   <tr>
@@ -46,4 +57,7 @@
 </table>
 </body>
 </html>
+
+
+
 
