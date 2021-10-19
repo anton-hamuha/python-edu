@@ -1,0 +1,6 @@
+snack = '{} and {}'.format('burger', 'fries')
+print('\nreplaced:', snack)
+snack = '{1} and {0}'.format('burger', 'fries')
+print('replaced:', snack)
+snack = '%s and %s'%('milk', 'cookies')
+print('\nsubstituted:', snack)
