@@ -1,7 +1,6 @@
-list1 =["banana", "peach", "apple"]
-list2 = [1, 5, 7, 9, 3]
-list3 = [True, False, False]
-
-print(list1)
-print(list2)
-print(list3)
+i = 1
+while i < 6:
+  print(i)
+  if (i == 3):
+    break
+  i += 1
